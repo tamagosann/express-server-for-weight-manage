@@ -5,7 +5,7 @@ const cors = require("cors");
 
 router.use(
   cors({
-    origin: "http://localhost:3001", //アクセス許可するオリジン
+    origin: "https://weight-manage-a1554.web.app", //アクセス許可するオリジン
     credentials: true, //レスポンスヘッダーにAccess-Control-Allow-Credentials追加
     optionsSuccessStatus: 200, //レスポンスstatusを200に設定
   })
