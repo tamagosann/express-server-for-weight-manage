@@ -1,0 +1,47 @@
+{
+  "users": [
+    {
+      "uid": "ti5U6x5hyZdeKhwsoASwuDl8yfL2",
+      "userInfo": { "height": 170, "startWeight": 111, "targetWeight": 111 },
+      "weights": [
+        {
+          "date": "2021-06-16",
+          "weight": 60,
+          "breakfast": "",
+          "lunch": "",
+          "dinner": "",
+          "weightId": "7gTYpMK3BUKmqSksyamQr"
+        },
+        {
+          "date": "2021-06-17",
+          "weight": 80,
+          "breakfast": "バナナ",
+          "lunch": "",
+          "dinner": "",
+          "weightId": "3dcKm_pSVVAtAO_9b6UXq"
+        },
+        {
+          "date": "2021-06-18",
+          "weight": 70,
+          "breakfast": "",
+          "lunch": "",
+          "dinner": "",
+          "weightId": "3rHJ0Boa2R3CQikGjLSTl"
+        },
+        {
+          "date": "2021-06-24",
+          "weight": 2342,
+          "breakfast": "adfs",
+          "lunch": "dsfas",
+          "dinner": "df",
+          "weightId": "bcAbkCwOZvtsQxJeHatOA"
+        }
+      ]
+    },
+    {
+      "uid": "TseZtU7ZP0aeG8l6f4bYXGhJzCm2",
+      "userInfo": { "height": 180, "startWeight": 120, "targetWeight": 100 },
+      "weights": []
+    }
+  ]
+}
