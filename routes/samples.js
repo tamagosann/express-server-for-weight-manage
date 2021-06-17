@@ -151,10 +151,21 @@ router.post("/fetch-user-info", function (req, res, next) {
   const index = parsedJsonObject.users.findIndex((user) => {
     return user.uid === uid;
   });
-  const userInfoToReturn = parsedJsonObject.users[index];
-  console.log(userInfoToReturn);
-  res.header("Content-Type", "application/json; charset=utf-8");
-  res.send(userInfoToReturn);
+  if(index >= 0 ) {
+    const userInfoToReturn = parsedJsonObject.users[index];
+    console.log(userInfoToReturn);
+    res.header("Content-Type", "application/json; charset=utf-8");
+    res.send(userInfoToReturn);
+  } else {
+    const userInfoToReturn = {
+      uid: uid,
+      userInfo: {height: null, startWeight: 0, targetWeight: 0},
+      weights: []
+    }
+    res.header("Content-Type", "application/json; charset=utf-8");
+    res.send(userInfoToReturn);
+  }
 });
 
 module.exports = router;
+

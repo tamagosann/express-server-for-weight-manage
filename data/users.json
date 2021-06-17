@@ -1,1 +1,88 @@
-{"users":[{"uid":"ti5U6x5hyZdeKhwsoASwuDl8yfL2","userInfo":{"height":180,"startWeight":90,"targetWeight":60},"weights":[{"date":"2021-06-17","weight":87,"breakfast":"","lunch":"","dinner":"","weightId":"auxYCipVk8w96dVJpwI5N"},{"date":"2021-06-18","weight":86,"breakfast":"","lunch":"","dinner":"","weightId":"iF3QwF3Dbex9eoazVaiwE"},{"date":"2021-06-16","weight":85,"breakfast":"","lunch":"","dinner":"","weightId":"QkNYxMCBpA5OBxL_70c0D"},{"date":"2021-06-19","weight":90,"breakfast":"","lunch":"","dinner":"","weightId":"Ri3p73ETR6KSStqW6ULK2"},{"date":"2021-06-20","weight":80,"breakfast":"","lunch":"","dinner":"","weightId":"3NMzW2e6oG3SpCuTmyzd1"},{"date":"2021-06-22","weight":75,"breakfast":"","lunch":"","dinner":"","weightId":"gCiHa8jGO48rR5xHcslBx"},{"date":"2021-06-23","weight":72,"breakfast":"","lunch":"","dinner":"","weightId":"wr7LscBPCeMI28WOC8k3j"},{"date":"2021-06-29","weight":70,"breakfast":"","lunch":"","dinner":"","weightId":"Jd7HfMJRaDCuvFlzFQCsA"}]},{"uid":"TseZtU7ZP0aeG8l6f4bYXGhJzCm2","userInfo":{"height":180,"startWeight":120,"targetWeight":100},"weights":[{"date":"2021-06-16","weight":123,"breakfast":"","lunch":"","dinner":"","weightId":"8IpuOZ7mnpZqEFyQU9L72"}]}]}
+{
+  "users": [
+    {
+      "uid": "ti5U6x5hyZdeKhwsoASwuDl8yfL2",
+      "userInfo": { "height": 180, "startWeight": 90, "targetWeight": 60 },
+      "weights": [
+        {
+          "date": "2021-06-17",
+          "weight": 87,
+          "breakfast": "",
+          "lunch": "",
+          "dinner": "",
+          "weightId": "auxYCipVk8w96dVJpwI5N"
+        },
+        {
+          "date": "2021-06-18",
+          "weight": 86,
+          "breakfast": "",
+          "lunch": "",
+          "dinner": "",
+          "weightId": "iF3QwF3Dbex9eoazVaiwE"
+        },
+        {
+          "date": "2021-06-16",
+          "weight": 85,
+          "breakfast": "",
+          "lunch": "",
+          "dinner": "",
+          "weightId": "QkNYxMCBpA5OBxL_70c0D"
+        },
+        {
+          "date": "2021-06-19",
+          "weight": 90,
+          "breakfast": "",
+          "lunch": "",
+          "dinner": "",
+          "weightId": "Ri3p73ETR6KSStqW6ULK2"
+        },
+        {
+          "date": "2021-06-20",
+          "weight": 80,
+          "breakfast": "",
+          "lunch": "",
+          "dinner": "",
+          "weightId": "3NMzW2e6oG3SpCuTmyzd1"
+        },
+        {
+          "date": "2021-06-22",
+          "weight": 75,
+          "breakfast": "",
+          "lunch": "",
+          "dinner": "",
+          "weightId": "gCiHa8jGO48rR5xHcslBx"
+        },
+        {
+          "date": "2021-06-23",
+          "weight": 72,
+          "breakfast": "",
+          "lunch": "",
+          "dinner": "",
+          "weightId": "wr7LscBPCeMI28WOC8k3j"
+        },
+        {
+          "date": "2021-06-29",
+          "weight": 70,
+          "breakfast": "",
+          "lunch": "",
+          "dinner": "",
+          "weightId": "Jd7HfMJRaDCuvFlzFQCsA"
+        }
+      ]
+    },
+    {
+      "uid": "TseZtU7ZP0aeG8l6f4bYXGhJzCm2",
+      "userInfo": { "height": 180, "startWeight": 120, "targetWeight": 100 },
+      "weights": [
+        {
+          "date": "2021-06-16",
+          "weight": 123,
+          "breakfast": "",
+          "lunch": "",
+          "dinner": "",
+          "weightId": "8IpuOZ7mnpZqEFyQU9L72"
+        }
+      ]
+    }
+  ]
+}
