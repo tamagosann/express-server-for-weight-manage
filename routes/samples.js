@@ -70,15 +70,33 @@ router.post("/add", function (req, res, next) {
   const index = parsedJsonObject.users.findIndex((user) => {
     return user.uid === uid;
   });
-  parsedJsonObject.users[index].weights.push(postData);
-  console.log(parsedJsonObject);
-  fs.writeFileSync(
-    "./data/users.json",
-    JSON.stringify(parsedJsonObject),
-    "utf8"
-  );
-  res.header("Content-Type", "application/json; charset=utf-8");
-  res.send({ message: "success" });
+  if(index >= 0) {
+    parsedJsonObject.users[index].weights.push(postData);
+    console.log(parsedJsonObject);
+    fs.writeFileSync(
+      "./data/users.json",
+      JSON.stringify(parsedJsonObject),
+      "utf8"
+    );
+    res.header("Content-Type", "application/json; charset=utf-8");
+    res.send({ message: "success" });
+  } else {
+    const newUser = {
+        uid: uid,
+        userInfo: {height: null, startWeight: 0, targetWeight: 0},
+        weights: [
+          postData
+        ]
+    }
+    parsedJsonObject.users.push(newUser);
+    fs.writeFileSync(
+      "./data/users.json",
+      JSON.stringify(parsedJsonObject),
+      "utf8"
+    );
+    res.header("Content-Type", "application/json; charset=utf-8");
+    res.send({ message: "success" });
+  }
 });
 
 router.post("/delete-weight", function (req, res, next) {
